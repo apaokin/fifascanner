@@ -8,8 +8,6 @@ using namespace std;
 
 	
 
-	//friend std::ostream& operator<<(std::ostream& , const Numbers4& );
-//	friend & ostream operator<<( & ostream, const & Numbers4);
 
 
 

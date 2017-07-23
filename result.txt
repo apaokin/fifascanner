@@ -108,3 +108,113 @@ GK_GOS_1D
 Result:    '4/s
 
 
+AlexNomand
+
+Result:    7.8
+
+
+KDL9N
+
+Result:    7,6
+
+
+aprioribrrr
+
+Result:    7,2
+
+
+Turistsosisk
+
+Result:    6.6
+
+
+SwipeZru
+
+Result:    6,7
+
+
+Samurai
+
+Result:    7.9
+
+
+Maximinho95
+
+Result:    5.6
+
+
+Swede_VL
+
+Result:    7,3
+
+
+nezdeshnii
+
+Result:    7,8
+
+
+Snake-77V
+
+Result:    7,5
+
+
+GK_GOS_1D
+
+Result:    -6.3
+
+
+AlexNomand
+
+Result:    10/11
+
+
+KDL9N
+
+Result:    10/13
+
+
+aprioribrrr
+
+Result:    16/18
+
+
+Turistsosisk
+
+Result:    5/B
+
+
+SwipeZru
+
+Result:    18/25
+
+
+Samurai
+
+Result:    8/10
+
+
+Maximinho95
+
+Result:    lo/8
+
+
+Swede_VL
+
+Result:    ‘llo/20
+
+
+nezdeshnii
+
+Result:    6/ 6
+
+
+Snake-77V
+
+Result:    9/11
+
+
+GK_GOS_1D
+
+Result:    '4/s
+
+
