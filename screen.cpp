@@ -1,15 +1,7 @@
-#include <tesseract/baseapi.h>
-#include <leptonica/allheaders.h>
+
 #include <fifascanner/screen.h>
-#include <string>
-#include <iostream>
-#include <cstdio>
-#include <vector>
-#include <algorithm> 
-#include <fstream>
 
-
-	
+using namespace std;
 
 
 	Screen::Screen(char* file_name)

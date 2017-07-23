@@ -1,4 +1,5 @@
-
+#include <fifascanner/screen.h>
+using namespace std;
 	
 	
 
@@ -14,15 +15,15 @@
 	{
 		return x_end;
 	}
-	int  RowBeginEnd::RowBeginEnd(int  x_beg2, int x_end2,int  row2)
+	RowBeginEnd::RowBeginEnd(int  x_beg2, int x_end2,int  row2)
 	{
 		x_beg = x_beg2;
 		x_end = x_end2;
 		row = row2;
 	}
-	//RowBeginEnd::friend ostream& operator<<(ostream& os, const RowBeginEnd& dt);
+	//ffRowBeginEnd::friend ostream& operator<<(ostream& os, const RowBeginEnd& dt);
 
-};
+
 ostream& operator<<(ostream& os, const RowBeginEnd& dt)
 {
 	os << dt.row << '|' << dt.x_beg << '|' << dt.x_end;

@@ -1,6 +1,14 @@
 #include <fstream>
 #include <vector>
-using namespace std;
+#include <tesseract/baseapi.h>
+#include <leptonica/allheaders.h>
+#include <string>
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#include <algorithm> 
+#include <fstream>
+//using namespace std;
 
 class RowBeginEnd
 {
@@ -17,10 +25,10 @@ public:
 	
 	RowBeginEnd(int, int, int);
 	
-	friend ostream& operator<<(ostream& , const RowBeginEnd& );
+	friend std::ostream& operator<<(std::ostream& , const RowBeginEnd& );
 
 };
-ostream& operator<<(ostream&, const RowBeginEnd&);
+//std::ostream& operator<<(std::ostream&, const RowBeginEnd&);
 
 
 
@@ -32,12 +40,12 @@ struct Numbers4
 
 
 
-	friend ostream& operator<<(ostream& , const Numbers4& );
+	friend std::ostream& operator<<(std::ostream& , const Numbers4& );
 
 
 };
 
-ostream& operator<<(ostream&, const Numbers4&);
+//std::ostream& operator<<(std::ostream&, const Numbers4&);
 
 
 
@@ -49,10 +57,10 @@ ostream& operator<<(ostream&, const Numbers4&);
 class Screen
 {
 private:
-	Pix *pix;
-	ofstream fout;
-	vector < Numbers4 > buf;
-	vector < vector<RowBeginEnd> > table;
+	Pix * pix;
+	std::ofstream fout;
+	std::vector < Numbers4 > buf;
+	std::vector < std::vector<RowBeginEnd> > table;
 	static const l_uint32 white = 150;
 	static const l_uint32 max_s = 25;// maximum distance between letters
 	static const l_uint32 min_col = 700; // minimum column to start from
@@ -78,5 +86,5 @@ private:
 		void draw_box(int , int , int , int );
 		
 		void draw_box(const Numbers4 & );
-		void proccess_one_elem(RowBeginEnd& in, int , int , int , int );
-}
+		void proccess_one_elem(RowBeginEnd& , int , int , int , int );
+};
